@@ -5,13 +5,14 @@ class circle:
 		self.circumference=C
 	def radius_circle(self):
 		r=self.radius_circle
-		print radius
+		return radius
 	def area(self):
 		A= (3.14*(r*r))
-		print  A     
+		return  A     
 	def circumference (self):
 		C =(2*3.14*r) 
-		print C
+		return
+
 class square:
 	
 		
@@ -21,13 +22,13 @@ class square:
 		self.perimeter=P
 	def side_square(self):
 	    a=self.side_square
-	    print a
+	    return a
 	def area(self):
 		A=(r*r)
 		print A
     def perimeter(self):
     	P=(4*r)
-    	print P
+    	return P
 class rectangle:
     def __init__(self,sides,area,perimeter):
     	self.sides=sides
@@ -35,14 +36,14 @@ class rectangle:
     	self.perimeter=P
     def sides(self):
         sides=(w,l)
-        print w,l
+        return w,l
 
     def area(self):
     	A=(w*l)
     	print A
     def perimeter(self):
     	P=2(w+l)
-    	print P
+    	return P
 class sphere:    	
     def __init__(self,radius,area,volume):
 		self.radius=r
@@ -50,14 +51,14 @@ class sphere:
 		self.volume=V
 	def radius(self):
 		r=self.radius
-		print radius
+		return radius
 	def area(self):
 		A= (4*3.14*(r*r)
-		print  A 
+		return  A 
 
     def volume(self):
 		V=4/3(3.14*(r*r*r))
-		print V
+		return V
 
 		
 
