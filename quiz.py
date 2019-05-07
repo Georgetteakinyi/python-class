@@ -19,13 +19,13 @@ return(range_sum)
 
 
 largest=([1,3,6,8,2,4,5.7]) 
-    print(max(1,3,6,8,2,4,5.7))
+    print(max(8))
 
 
 
 
 smallest=([1,3,6,8,2,4,5.7]) 
-    print(min(1,3,6,2,4,5,7))
+    print(min(1))
 
 
 
